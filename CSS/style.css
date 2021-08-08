@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Dubai;
+}
+
+div{
+    margin: 50px 38%;
+    border: 2px white solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div.produto{
+    margin: 50px 36%;
+    border: 2px white solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a{
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18pt;
+    color: #aaa;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: #00f;
+    background-color: white;
+    transition-duration: 0.8s;
+}
+
+label{
+    font-size: 16pt;
+}
+
+input{
+    font-size: 16pt;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+input#email{
+    margin-left: 26px;
+}
+
+div.produto input#codigo{
+    margin-left: 43px;
+}
+
+div.produto input#preco{
+    margin-left: 55px;
+}
+
+input#env{
+    background-color: #000099;
+    border: none;
+    color: white;
+    font-size: 14pt;
+    padding: 5px 20px;
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+input#env:hover{
+    background-color: white;
+    color: #000099;
+    font-weight: bolder;
+    transition-duration: 0.3s;
+}
+
+.tabela{
+    margin: 50px 20%;
+    border: 2px white solid;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-bottom: 0;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+tr{
+    background-color: gray;
+    color: black;
+}
